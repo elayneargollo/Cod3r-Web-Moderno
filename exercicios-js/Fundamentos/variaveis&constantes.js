@@ -4,7 +4,7 @@
 var linguagem = 'JS'  /* pode ser redeclarar */
 let curso = 'web' /* mais moderno e so pode declarar uma unica vez, logo, mais seguro */
 
-var linguagem = 'JavaScript'
+var liguangem = 'JavaScript'
 curso = 'web-moderno'
 
 console.log(linguagem, curso)
