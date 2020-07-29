@@ -18,7 +18,8 @@ import {MatCardModule} from '@angular/material/card';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-import { MatSnackBarModule } from '@angular/material/snack-bar'
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar'
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
