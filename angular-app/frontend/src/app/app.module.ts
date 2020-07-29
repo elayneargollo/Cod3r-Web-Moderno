@@ -18,7 +18,7 @@ import {MatCardModule} from '@angular/material/card';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-
+import { MatSnackBarModule } from '@angular/material/snack-bar'
 
 @NgModule({
   declarations: [
@@ -29,7 +29,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     HomeComponent,
     ProductCrudComponent,
     ContatoComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +39,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
