@@ -13,9 +13,12 @@ import { HomeComponent } from './views/home/home.component'
 
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ContatoComponent } from './views/contato/contato.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +28,8 @@ import { ContatoComponent } from './views/contato/contato.component';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ContatoComponent
+    ContatoComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,8 @@ import { ContatoComponent } from './views/contato/contato.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
